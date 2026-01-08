@@ -22,7 +22,11 @@
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
+    cursor: pointer;
 
+}
+.btn:hover {
+    background-color: red;
 }
 
 /*main style */
@@ -47,9 +51,14 @@ nav .menu{
     list-style-type: none;
     gap: 32px;
     align-items: center;
+    
 }
 nav .menu a{
     font-size:16px ;
     color: #000000 ;
     text-decoration: none;
 }
+nav a:hover {
+  color: #2f855a;
+}
+
