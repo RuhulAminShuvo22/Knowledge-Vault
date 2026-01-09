@@ -211,7 +211,8 @@ nav a:hover {
     padding: 30px;
     /*border:  1px solid red;*/
     box-shadow: 0 0 8px 0 #0000000F;
-    max-width: 322px;   
+    max-width: 322px; 
+      
 }
 .features-card img{
     max-width: 60px;
@@ -232,4 +233,43 @@ nav a:hover {
     font-size: 16px;
     color: #627382;
     line-height: 20px;
+}
+.design{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    border-radius: 12px;
+    margin: 120px auto;
+    padding-left: 130px;
+    
+    
+}
+.design-img img{
+    width: 600px;
+    height: 600px;
+}
+.design-text span{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 20px;
+}
+.design-text h1{
+    font-size: 48px;
+    margin: 10px auto;
+}
+.design-text p{
+    font-size: 16px;
+    font-weight: 20px;
+    color: #627382;
+    margin-bottom: 20px;
+}
+.design-text ul p{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 20px;
+    color: #001931;
+    position: relative;
+    padding-top: 10px;
 }
