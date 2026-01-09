@@ -26,7 +26,7 @@
 
 }
 .btn:hover {
-    background-color: red;
+    background-color: darkgreen;
 }
 
 /*main style */
@@ -272,4 +272,61 @@ nav a:hover {
     color: #001931;
     position: relative;
     padding-top: 10px;
+}
+.more-info{
+    padding-top: 120px;
+
+}
+.more-info .info-container{
+    width: 71%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px 192px 40px;
+
+}
+.more-info .info-container .section-heading{
+    max-width: 1280px;
+    text-align: center;
+}
+
+.more-info .info-container .section-heading h2{
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: #001931;
+}
+.more-info .info-container .section-heading p{
+    font-size: 16px;
+    margin-bottom: 24px;
+    line-height:24px ;
+    color: #627382;
+}
+
+
+.more-info .info-container .button .btn{
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px ;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: auto; 
+}
+.more-info .info-container .button .btn:hover{
+    background-color: #357a55;
+    
+}
+.more-info .info-container .last-part p{
+    text-align: center;
+    color: #627382;
+    font-size: 16px;
+    font-weight: 20px;
+    padding-top: 16px;
+    padding-bottom: 80px;
 }
