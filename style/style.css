@@ -31,7 +31,7 @@
 
 /*main style */
 header{
-    background-color: #ccafaf; /* ei ta #ffffff (white colour korte hobe)*/
+    background-color: #ffffff; /* ei ta #ffffff (white colour korte hobe)*/
     padding-top: 20px;
 
 
@@ -61,4 +61,118 @@ nav .menu a{
 nav a:hover {
   color: #2f855a;
 }
+.hero{
+    background-image: url(../image/hero-bg.png);
+    background-size: cover;
+    width: 1493px;
+    height: 560px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #ffffff;
 
+
+}
+.hero .access-btn{
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #276941;
+    padding: 8px 12px 8px 12px;
+    text-align: center;
+    
+    /*border: solid red;*/
+    border-radius: 1000px;
+    margin-top: 123px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.hero .access-btn .icon{
+    
+    width: 12px;
+    height: 12px;
+    border:11.5px ;
+    border: 14px;
+    border: solid green;
+    color: #469165;
+    border-radius: 8px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+
+}
+.dot{
+   width: 14px;
+   height: 14px;
+   background: #469165;
+   border-radius: 50%;
+}
+.text{
+   white-space: nowrap;
+   font-size: 16px;
+   color: #276941;
+}
+.hero h1{
+    margin-top: 16px;
+    font-size: 72px;
+    font: bold;
+}
+.hero h1 span{
+    color: #30B868;
+
+}
+.hero .subtitle{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.hero .hero-btn{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.hero .hero-btn .btn-one{
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 16px ;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 520px;
+
+}
+.hero .hero-btn .btn-one:hover{
+    background-color: #357a55;
+    
+}
+
+.hero .hero-btn .btn-two{
+    
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 12px 16px ;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 10px;
+    cursor: pointer;
+    background: none;
+    margin-left: 16px;
+
+}
+.hero .hero-btn .btn-two:hover{
+    background-color: black;
+    
+}
